@@ -2,9 +2,20 @@
   margin:0px;
   padding:0px;
   display: flex;
+
+  > input[type="text"]{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height:30px; 
+    width: 40vw;
+    padding-left:15px;
+    outline:none;
+  }
 }
 body{
-  background-color:#131313;
+  background-color:#1E1E1E;
 }
 .component1{
   background-color:#3C3C3C;
